@@ -17,4 +17,5 @@ def DC(int):
 def GHOST(int):
     print(bin(int + int - int * 100))
 
-def 
+def RS(int):
+    print(hex(int + int - int * 2 + int + int - int))

@@ -13,3 +13,8 @@ def OCT(int):
 
 def DC(int):
     print(hex(int+int*2))
+
+def GHOST(int):
+    print(bin(int + int - int * 100))
+
+def 

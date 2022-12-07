@@ -24,10 +24,9 @@ def RS(int):
     print(hex(int + int - int * 2 + int + int - int))
 
 def OL(n1, n2, n3, n4):
-    print(hex(math.sqrt(n1 * n2 * n3 * n4 - (n1 * n4))))
+    print((math.sqrt(n1 * n2 * n3 * n4 - (n1 * n4))))
     a = [n1, n2, n3, n4]
     print('your numbers:', a)
-    print('your numbers in hex:', hex(a))
 
 def PL(row1, row2):
     a = np.array([

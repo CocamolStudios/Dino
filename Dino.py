@@ -44,3 +44,18 @@ class Cardinal:
         a1 = Subset([input("1:"), input("2:")], [input("1:"), input("2:"), input("3:"), input("4:"), input("5:")])
         print("Subset a cardinality : ", a1.cardinality)  
     
+    def infintiy_except(self):
+        a = int(input("n:"))
+        b = sy.symbols(input("X:"))
+        c = int(input("range:"))
+        l = []
+        for i in range(c):
+            x = int(input("int:"))
+            a1 = a * (a * a * a * a * a)
+            a2 = a1 ** x * a1 ** x * (a1 * a1 * a1 * x)
+            a3 = a2 * a1 ** x
+            a4 = a3 * a3 ** x
+            l.append(a4 * x * b)
+            y = int(input("int2:"))
+            infintiy_except = l * y
+            print("infintiy except:", infintiy_except)

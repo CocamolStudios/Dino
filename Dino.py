@@ -59,3 +59,15 @@ class Cardinal:
             y = int(input("int2:"))
             infintiy_except = l * y
             print("infintiy except:", infintiy_except)
+
+class factorial:
+    def x_factorial(self):
+        while True:
+            a = int(input("Known:"))
+            b = sy.symbols(input("Unknown:"))
+            c = int(input("UT:"))
+            d = b = a / c
+            e = int(d)
+            f = math.factorial(e)
+            print("Unknown:", e)
+            print("Factorial of Unknown:", f)

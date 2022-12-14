@@ -1,6 +1,8 @@
 import math
-
 import numpy as np
+from sympy.combinatorics import Permutation, Cycle
+from sympy.combinatorics.subsets import Subset
+import sympy as sy
 
 def NUM(int):
     print(int + int - int)
@@ -35,3 +37,10 @@ def PL(row1, row2):
     print('your row1 in bin:', bin(row1))
     print('your row2 in bin:', bin(row2))
     print('your rows array:', a)
+
+class Cardinal:
+    
+    def cardinality(self):
+        a1 = Subset([input("1:"), input("2:")], [input("1:"), input("2:"), input("3:"), input("4:"), input("5:")])
+        print("Subset a cardinality : ", a1.cardinality)  
+    
